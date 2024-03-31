@@ -1,0 +1,89 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: max-content;
+}
+
+body {
+    background-color: orange;
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    height: 10vh;
+}
+
+
+.nav-bar p {
+    margin-right: 20px;
+    font-size: 2em;
+    text-align: center;
+    width: fit-content;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 12vh;
+    flex-flow: column;
+    background-color: chocolate;
+    height: 50vh;
+}
+
+.title h1 {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+
+.profile-photo {
+    display: flex;
+    align-self: center;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.section {
+    padding-left: 10px;
+    font-size: medium;
+}
+
+
+.skills {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: chocolate;
+    border-radius: 30px;
+}
+
+.list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    padding: 10px;
+}
+.list li{
+    margin: 8px;
+    align-items: center;
+}
