@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+
+.main-section {
+    background-color: blue; 
+    height: 300px; 
+    color:white;
+}
+
+
+#internal-info {
+    background-color: purple;
+    color: green;
+}
