@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tableexample.css">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tabelas e seus usos</h1>
+        <article>Tabelas eram mais comuns como forma de organizar a disposição do conteudo numa página porém com
+            surgimento de novas ferramentas não é mais tão utilizando quanto já foi, mas ainda uma ferramenta bastante
+            útil de se aprender...</article>
+        <div>
+            <h3>Uma tabela é composta por quatro tags diferentes:</h3>
+            <ul>
+                <li>table: Que é a tag que define onde está a tabela no documento HTML</li>
+                <li>tr: Que define uma linha da tabela</li>
+                <li>th: Que define um cabeçalho da tabela</li>
+                <li>td: Que define a célula de uma tabela</li>
+            </ul>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Mês</th>
+                    <th>Economias</th>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$120</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$340</td>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$120</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>R$10</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total: R$590</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>Obs: é possivel utilizar uma tag tfoot para criar um rodape para a tabela, mas para funcionar como
+                estamos vendo é preciso alterar a propriedade "colspan" da tag <span
+                    style="font-weight: bold;">td</span>. </p>
+        </div>
+    </main>
+</body>
+
+</html>

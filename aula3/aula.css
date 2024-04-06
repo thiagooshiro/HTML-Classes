@@ -1,0 +1,22 @@
+main {
+    display: flex;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: fit-content;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.table {
+    display: flex;
+    background-color: lightgreen;
+    align-items: center;
+    gap: 8px;
+    padding: 4px;
+    border-radius: 30px;
+}
