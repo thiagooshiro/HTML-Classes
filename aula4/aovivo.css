@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 98%;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+}
+
+.barra a {
+    display: inline-block;
+    background-color: grey;
+    height: auto;
+    align-content: space-evenly;
+}
+
+#titulo {
+    background-color:darkslateblue;
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main {
+    margin: auto;
+}
+
+.principal {
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.categoria input {
+    width: 40%;
+}
+
+#btn-cadastrar {
+    width: fit-content;
+    margin: auto;
+    background-color: chocolate;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+}
