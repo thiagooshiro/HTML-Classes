@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula4.css">
+    <title>Cascading Style Sheets</title>
+</head>
+
+<body>
+    <style>
+        .principal {
+            display: block;
+            background-color: lightblue;
+            padding: 0.5rem;
+            border-radius: 10px;
+            margin-bottom: 0.8rem;
+        }
+    </style>
+    <div style="display: block; background-color: lightgray;">
+        <h1>CSS - Cascading Style Sheets</h1>
+        <p> É uma ferramenta de estilização de sites baseado em camadas de estilização - estilizar elementos individuais
+            (como classes ou ids), agrupamentos de elementos (com classes ou estilização direta de elementos)
+    </div>
+    <div class="principal">
+        <h2> Existem diferentes formas de utilizar CSS </h2>
+        <div>
+            <h4>Estilização in-line</h4>
+            <p style="text-align: center; font-weight: bold;">Quando o código do css está escrito no próprio elemento
+                chamamos isso de CSS "inline" porque está "na linha" de código HTML que está estilizando, por exemplo,
+                esse parágrafo.</p>
+        </div>
+        <div>
+            <h4>Estilização "interna"</h4>
+            <p>Estilização interna é a utilização da tag "styles" no próprio documento HTML para definir propriedades de
+                CSS, nesse caso, a div "principal" é estilizada de forma "interna"</p>
+        </div>
+    </div>
+    <div class="externa">
+        <h2>Estilização Externa</h2>
+        <p>Muitas vezes convém utilizar estilização externa, para isso iremos utilizar da tag "linK" no head do
+            documento fazendo referência ao arquivo de estilização que iremos utilizar, no caso aqui a referência é
+            feita ao arquvi "aula4.css", arquivos de estilização possuem por padrão a extensão ".css"</p>
+    </div>
+
+
+</body>
+
+</html>
