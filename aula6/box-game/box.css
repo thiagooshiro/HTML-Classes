@@ -2,8 +2,8 @@ body {
     display: flex;
     flex-flow: column;
     background-color: orange;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     font-family: monospace;
     font-weight: bold;
@@ -21,7 +21,7 @@ body {
     border-radius: 30px;;
     font-size: larger;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin:10px;
 }
 
 .box p {
@@ -42,4 +42,16 @@ body {
 
 .zero p{
     margin-right: 10px;
+}
+
+.ex1 {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    background-color: darkred;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
 }

@@ -28,7 +28,8 @@ body {
 }
 
 .card {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(63, 15, 142);
     border-radius: 10px;
     padding: 10px;
@@ -39,29 +40,45 @@ body {
 
 
 
-.display-block p{
-    display: block;
+.example-flex {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.example-flex p {
     margin: 10px;
     background-color: rgb(43, 164, 13);
     text-align: center;
     border-radius: 10px;
+    width: 30px;
 }
 
 
-.display-inline p {
-    display: inline;
+.example-column {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.example-column p {
     margin: 20px;
     background-color: rgb(43, 164, 13);
     text-align: center;
     border-radius: 10px;
     padding: 10px;
+    width: 20px;
 }
 
-.inline-block p{
-    display: inline-block;
+.example-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-wrap p {
     margin: 6px;
     background-color: rgb(43, 164, 13);
     text-align: center;
     border-radius: 10px;
     padding: 9px;
+    width: 30px;
 }
