@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="coluna">
+            <button class="botao" onclick="toggleLista('lista-programacao')">Habilidades de Programação</button>
+            <ol id="lista-programacao" class="lista lista-ordenada">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ol>
+        </div>
+        <div class="coluna">
+            <button class="botao" onclick="toggleLista('lista-geral')">Habilidades Gerais</button>
+            <ul id="lista-geral" class="lista lista-nao-ordenada">
+                <li>Trabalho em Equipe</li>
+                <li>Comunicação Eficaz</li>
+                <li>Resolução de Problemas</li>
+                <li>Gerenciamento de Tempo</li>
+                <li>Aprendizado Contínuo</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

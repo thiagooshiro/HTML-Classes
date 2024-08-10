@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.coluna {
+    width: 45%;
+}
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+.lista {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-ordenada {
+    list-style-type: decimal;
+}
+
+.lista-nao-ordenada {
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 5px;
+}

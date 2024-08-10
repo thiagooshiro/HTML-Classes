@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .form-group button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .form-group button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Formulário de Inscrição</h2>
+            <p>Preencha os campos abaixo para iniciar sua jornada na CodeMaster Academy.</p>
+            <form action="#">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="curso">Curso de Interesse:</label>
+                    <select id="curso" name="curso">
+                        <option value="desenvolvimento_web">Desenvolvimento Web</option>
+                        <option value="ciencia_dados">Ciência de Dados</option>
+                        <option value="ia_web">Aplicações Web com Inteligência Artificial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="motivo">Por que você quer se inscrever?</label>
+                    <textarea id="motivo" name="motivo"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar Inscrição</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 CodeMaster Academy
+    </footer>
+</body>
+</html>
