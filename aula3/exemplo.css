@@ -1,0 +1,111 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral do body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilização do header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #444;
+}
+
+header nav a:hover {
+    background: #555;
+}
+
+/* Estilização do main */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Estilização do article */
+article {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+article h3 {
+    margin: 10px 0;
+    color: #555;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+/* Estilização do aside */
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+aside h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+aside p {
+    margin: 10px 0;
+}
+
+aside div {
+    margin-bottom: 10px;
+}
+
+/* Estilização do footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}
