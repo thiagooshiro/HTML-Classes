@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
-	<title>Bem vindos ao meu portifólio pessoal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Dev</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<!-- referencia importante: https://flexboxfroggy.com -->
-
 <body>
-	<div class="menu">
-		<nav class="nav-bar">
-			<p>HOME</p>
-			<p>Projetos</p>
-			<p>Sobre mim</p>
-		</nav>
-	</div>
-	<main class="main">
-		<div class="title">
-			<img src="eu.jpeg" class="profile-photo" />
-			<h1>Olá, meu nome é Thiago</h1>
-		</div>
-		<div class="section">
-			<div class="skills">
-				<div>
-					<h2 class="description-title">Um pouco sobre mim</h2>
-					<p>Nasci em Ouro Preto, cursei história pela UFOP, mas acabei decidindo mudar de carreira em 2021...
-					</p>
-				</div>
-			</div>
-			<div class="skills">
-				<div class="list">
-					<h3>Principais Linguagens e Frameworks</h3>
-					<ul>
-						<li>HTML/CSS</li>
-						<li>Python</li>
-						<li>Javascript</li>
-						<li>NextJS</li>
-						<li>Django</li>
-					</ul>
-				</div>
-				<div class="list">
-					<h3>Habilidades Socioemoncionais</h3>
-					<ul>
-						<li>Boa Comunicação</li>
-						<li>Pró-atividade</li>
-						<li>Capacidade analítica</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</main>
-</body>
+    <div class="container">
+        <!-- Menu de navegação -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
 
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="gatito.jpeg" alt="Foto do Dev" class="profile-photo">
+                <div class="profile-info">
+                    <h1>DevCat</h1>
+                    <h3>Full Stack Developer</h3>
+                    <p>Especialista em desenvolvimento de aplicações web modernas, focado em criar soluções eficientes e intuitivas com JavaScript, Python e outras tecnologias.</p>
+                </div>
+            </div>
+
+            <!-- Breve texto descritivo -->
+            <div class="description">
+                <p>
+                    Sou um desenvolvedor apaixonado por tecnologia, inovação e resolução de problemas complexos. Meu foco está em criar experiências de usuário excepcionais e arquiteturas eficientes para aplicações web. Sempre buscando novas oportunidades para aprender e compartilhar conhecimento.
+                </p>
+            </div>
+
+            <!-- Habilidades -->
+            <div class="skills">
+                <h2>Habilidades</h2>
+                <div class="skill-list">
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Django</div>
+                    <div class="skill-item">Node.js</div>
+                </div>
+            </div>
+
+            <!-- Links de redes sociais -->
+            <div class="social-media">
+                <h2>Conecte-se</h2>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

@@ -1,0 +1,47 @@
+/* Estilos para o contêiner geral */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilos para o contêiner das caixas */
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para as caixas */
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Cores das caixas */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+/* Estilos para os botões */
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

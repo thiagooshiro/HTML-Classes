@@ -1,0 +1,29 @@
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.grow {
+    flex-grow: 2;
+}

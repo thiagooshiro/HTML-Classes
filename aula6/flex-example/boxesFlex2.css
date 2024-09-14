@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(63, 15, 142);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: antiquewhite;
+    font-size: large;
+    width: 300px;
+}
+
+/* Estilo padrão para as caixas verdes */
+.card p {
+    background-color: rgb(43, 164, 13);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Justify Content - Space Around */
+.example-justify-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Align Items - Center */
+.example-align-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(63, 15, 142);
+}
+
+/* Flex Grow */
+.example-flex-grow {
+    display: flex;
+}
+
+.example-flex-grow p {
+    flex-grow: 1;
+}

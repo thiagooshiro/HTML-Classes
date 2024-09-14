@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Contêiner para as caixas */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Estilo das caixas */
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+/* Cores das caixas */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+/* Classe para esconder as caixas */
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
