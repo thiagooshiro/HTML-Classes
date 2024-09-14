@@ -1,68 +1,97 @@
+/* Estilos globais */
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    width: 100%;
-}
-
-
-.barra {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    width: 98%;
-    height: fit-content;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    
-}
-
-.barra a {
-    display: inline-block;
-    background-color: grey;
-    height: auto;
-    align-content: space-evenly;
-}
-
-#titulo {
-    background-color:darkslateblue;
-    width: 50%;
-    margin: auto;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-}
-
-main {
-    margin: auto;
-}
-
-.principal {
-    background-color: lightgreen;
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin-bottom: 3rem;
-}
-
-.categoria {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-.categoria input {
-    width: 40%;
-}
-
-#btn-cadastrar {
-    width: fit-content;
-    margin: auto;
-    background-color: chocolate;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding: 0.2rem;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para a barra de navegação */
+.barra {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.barra a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.barra a:hover {
+    color: #ff4081;
+}
+
+/* Estilos para o título */
+#titulo h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para o formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para as categorias de entrada */
+.categoria {
+    margin-bottom: 20px;
+}
+
+.categoria label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.categoria input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.categoria input:focus {
+    border-color: #ff4081;
+}
+
+/* Estilos para o botão de cadastro */
+#btn-cadastrar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#btn-cadastrar a {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#btn-cadastrar a:hover {
+    background-color: #e91e63;
 }

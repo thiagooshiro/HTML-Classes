@@ -44,7 +44,7 @@ body {
     margin-right: 10px;
 }
 
-.ex1 {
+.card {
     display: flex;
     height: 200px;
     width: 50%;
@@ -54,4 +54,12 @@ body {
     margin: 10px;
     align-items: center;
     justify-content: center;
+}
+
+.ex1 {
+    display: flex;
+}
+
+.ex2 {
+    display: flex;
 }
