@@ -18,11 +18,6 @@
 - Adicione o **ID correto** no botão:
   - ID para o botão de **alternar tamanho das caixas**: `toggle-grow`.
 
----
-
-Você tem razão! O terceiro exercício acabou sendo muito semelhante ao primeiro. Vou reformular o terceiro exercício para que siga uma lógica diferente e não seja uma repetição.
-
----
 
 ### **Exercício 3: Alterar a Ordem dos Itens**
 
